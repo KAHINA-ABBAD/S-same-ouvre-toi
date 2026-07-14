@@ -25,6 +25,7 @@ sage-importance==0.0.5
 
 # --- Équité / Fairness ---
 fairlearn==0.10.0
+aif360==0.6.1
 
 # --- Récupération du dataset Kaggle ---
 kagglehub==0.2.5
@@ -35,3 +36,9 @@ ipykernel==6.29.4
 
 # --- Export / rendu ---
 nbconvert==7.16.4
+
+# --- Persistance des modèles ---
+joblib==1.5.3
+
+# --- Interface interactive ---
+streamlit==1.59.2
