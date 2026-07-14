@@ -1,0 +1,37 @@
+# ============================================================
+# Sésame, ouvre-toi — requirements.txt
+# Audit de biais & équité algorithmique sur COMPAS (SHAP/XAI)
+# ============================================================
+
+# --- Manipulation de données ---
+pandas==2.2.2
+numpy==1.26.4
+
+# --- Visualisation ---
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# --- Machine Learning ---
+scikit-learn==1.5.0
+xgboost==2.0.3
+
+# --- Optimisation d'hyperparamètres ---
+optuna==3.6.1
+
+# --- Explicabilité (XAI) ---
+shap==0.45.1
+lime==0.2.0.1
+sage-importance==0.0.5
+
+# --- Équité / Fairness ---
+fairlearn==0.10.0
+
+# --- Récupération du dataset Kaggle ---
+kagglehub==0.2.5
+
+# --- Environnement notebook ---
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# --- Export / rendu ---
+nbconvert==7.16.4

@@ -1,0 +1,22 @@
+# Environnement virtuel Python
+sesamEnv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données (24 Mo de CSV, volontairement non versionnées — cf. requirements.txt / README pour les récupérer)
+data/
+
+# Sauvegardes locales de notebooks
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
